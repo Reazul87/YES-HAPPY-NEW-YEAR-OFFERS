@@ -1,0 +1,135 @@
+/* inter{
+    color: #FFFFFF;
+    font-size: 24px;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.inter-text-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.merriweather-text-style {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+ /* from hear styling of FOOTER:start */
+.footertitle{
+    display: flex;
+    justify-content: space-between;
+}
+.footerhead{
+    padding-right: 650px;
+}
+.icon {
+    display: flex;
+    gap: 5px;
+}
+.footer-type{
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-img{
+   text-align: center;    
+}
+.footersubtitle{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.footer-img img{
+    margin: 5px;
+}
+.footer-section{ 
+    padding: 50px 100px 50px 100px;
+    color: #FFFFFF;
+    background-color: black;
+    
+}
+/* Subscribe section */
+.sectionhead{
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    /* margin-bottom: 15px; */
+}
+.sectionhead-title{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+}
+.sectionhead-subtitle{
+    font-size: 20px;
+    color: #07021160;
+    font-weight: 300;
+}
+.sectionbody{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+.sectionbody button{
+    height: 48px;
+    width: 150px;
+    /* border-radius: 50px; */
+    border-left: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border: none;
+    background-color: red;
+    border-spacing: 0px;
+}
+.sectionbody input{
+    width: 420px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    /* border-radius: 50px; */
+    padding-top: 15px;
+    border-right: 50px;
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.Subscribe-section{
+    background-color: #ff00001e;
+    border-radius: 16px;
+    margin: 100px;
+}
+/* BEST GIFTS */
+.BEST-GIFTS{
+    max-width: 1230px;
+    padding: 100px;
+}
+.gift-head{
+    /* gap: 5px; */
+}
+.image-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gift-description{
+    font-size: 20px;
+    color: #07021160;
+    font-weight: 300;
+    padding-right: 300px;
+}
+.gift-subtitle{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 500;
+}
+.gift-title{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 400;
+}
